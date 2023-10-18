@@ -6,10 +6,10 @@ export default function LandingPage() {
   return (
     <main>
       <p>lets get started</p>
-      <Button>
+      <Button asChild>
         <Link href="/sign-in">Sign In</Link>
       </Button>
-      <Button variant="outline">
+      <Button asChild variant="outline">
         <Link href="/sign-up">Sign Up</Link>
       </Button>
     </main>
