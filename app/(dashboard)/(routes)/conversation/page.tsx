@@ -10,9 +10,8 @@ import { useForm } from "react-hook-form";
 import { formSchema } from "./constants";
 import * as z from "zod";
 import axios from "axios";
-import { Fragment, useEffect, useState } from "react";
+import {  useState } from "react";
 import { useRouter } from "next/navigation";
-import { Skeleton } from "@/components/ui/skeleton";
 import ConversationSkeleton from "@/components/converationSkeleton";
 
 // Define a type for the user messages
