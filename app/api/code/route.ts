@@ -24,9 +24,6 @@ export const POST = async (request: Request) => {
         const body = await request.json()
         const { messages } = body;
 
-        console.log(messages)
-
-
 
         // check if user is authenticated
         if (!userId) {
